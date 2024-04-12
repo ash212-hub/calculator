@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" 
+    type="image/png" 
+    href="https://static.vecteezy.com/system/resources/previews/000/355/501/large_2x/vector-calculator-icon.jpg">
+    <title>calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body id="body">
+    <div id="calculator">
+        <input type="text" name="" id="display">
+        <div id="keys">
+            <button onclick="taptodisplay('+')" class="opt_btn">+</button>
+            <button onclick="taptodisplay('7')">7</button>
+            <button onclick="taptodisplay('8')">8</button>
+            <button onclick="taptodisplay('9')">9</button>
+            <button onclick="taptodisplay('-')" class="opt_btn">-</button>
+            <button onclick="taptodisplay('4')">4</button>
+            <button onclick="taptodisplay('5')">5</button>
+            <button onclick="taptodisplay('6')">6</button>
+            <button onclick="taptodisplay('*')" class="opt_btn">*</button>
+            <button onclick="taptodisplay('1')">1</button>
+            <button onclick="taptodisplay('2')">2</button>
+            <button onclick="taptodisplay('3')">3</button>
+            <button onclick="taptodisplay('/')" class="opt_btn">/</button>
+            <button onclick="taptodisplay('0')">0</button>
+            <button onclick="taptodisplay('.')">.</button>
+            
+               <button onclick="calculate()"  id="equeal">=</button>
+               <button onclick="cleardisplay()">C</button>
+
+
+            <button id="menu" onclick="menu()">
+                <img src="./ash3-removebg-preview.png" alt="" srcset="">
+            </button>
+       
+         <div id="box">
+            <button id="togle"></button>
+         </div>
+
+
+            </div>
+          
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
